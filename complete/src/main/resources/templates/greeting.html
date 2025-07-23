@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Getting Started: Serving Web Content</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script>
+    // This function updates the greeting with the provided name
+    function updateGreeting(name) {
+      document.getElementById("greeting").textContent = `Hello, ${name}!`;
+    }
+
+    // Example: update with a sample name
+    window.onload = function() {
+      const name = "Bansh"; // You can replace this with dynamic input
+      updateGreeting(name);
+    };
+  </script>
+</head>
+<body>
+<p id="greeting">Hello!</p>
+</body>
+</html>
